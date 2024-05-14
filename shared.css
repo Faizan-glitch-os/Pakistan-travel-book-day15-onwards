@@ -1,0 +1,20 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  text-decoration: none;
+  font-family: "Poetsen", sans-serif;
+  color: #e6ff94;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
