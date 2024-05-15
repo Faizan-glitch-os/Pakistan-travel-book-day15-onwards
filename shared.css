@@ -3,16 +3,20 @@ body {
   margin: 0;
 }
 
-.header-container {
+header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
 }
 
 .logo a {
   text-decoration: none;
   font-family: "Poetsen", sans-serif;
-  color: #e6ff94;
+  color: #9dde8b;
+  font-size: 40px;
   text-transform: uppercase;
+  text-shadow: 2px 4px 8px;
 }
 
 ul {

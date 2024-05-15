@@ -1,0 +1,59 @@
+header ul {
+  display: flex;
+  flex-direction: row;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+#hero {
+  height: 800px;
+  background-image: url("/assets/images/Pakistan\ Flag.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#hero-content {
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #006769;
+  opacity: 0.7;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px #40a578;
+  position: relative;
+  top: 300px;
+}
+
+#hero-content h1 {
+  color: #e6ff94;
+  font-family: "Poetsen", sans-serif;
+  font-size: 40px;
+  margin: 0;
+}
+
+#hero-content p {
+  font-size: 15px;
+  font-weight: 700;
+  color: wheat;
+  margin-bottom: 30px;
+}
+
+#hero-content a {
+  text-decoration: none;
+  background-color: #e6ff94;
+  padding: 10px 30px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px #40a578;
+}
+
+#hero-content a:hover {
+  text-decoration: none;
+  background-color: #40a578;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px #e6ff94;
+}
