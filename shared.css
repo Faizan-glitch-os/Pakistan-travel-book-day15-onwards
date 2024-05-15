@@ -19,6 +19,14 @@ header {
   text-shadow: 2px 4px 8px;
 }
 
+.logo a:hover {
+  text-decoration: none;
+  color: #006769;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-shadow: 2px 4px 8px;
+}
+
 ul {
   list-style: none;
 }
