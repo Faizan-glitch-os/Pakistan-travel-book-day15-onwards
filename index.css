@@ -1,3 +1,9 @@
+header {
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 header ul {
   display: flex;
   flex-direction: row;
@@ -9,7 +15,7 @@ header li {
 
 #hero {
   height: 800px;
-  background-image: url("/assets/images/Pakistan\ Flag.jpg");
+  background-image: url("/assets/images/Pakistan Flag.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -56,4 +62,45 @@ header li {
   padding: 10px 30px;
   border-radius: 10px;
   box-shadow: 2px 4px 8px #e6ff94;
+}
+
+#destinations {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  text-align: center;
+  padding-inline-start: 0;
+}
+
+.destinations {
+  margin: 10px;
+}
+
+#highlights h2 {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#highlights {
+  padding: 20px;
+}
+
+.destinations img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 2px 2px 8px #e6ff94;
+  margin-bottom: 10px;
+}
+
+.destinations strong {
+  display: block;
+  text-transform: uppercase;
+}
+
+#highlights {
+  background: linear-gradient(180deg, white, #40a578);
 }
