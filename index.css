@@ -1,18 +1,3 @@
-header {
-  position: absolute;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-header ul {
-  display: flex;
-  flex-direction: row;
-}
-
-header li {
-  margin-left: 20px;
-}
-
 #hero {
   height: 800px;
   background-image: url("/assets/images/Pakistan Flag.jpg");

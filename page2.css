@@ -1,0 +1,33 @@
+body {
+  background-color: #7fc3a5;
+}
+
+header {
+  position: static;
+}
+
+li img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+main li {
+  display: flex;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  width: 800px;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.explore {
+  text-align: end;
+}
