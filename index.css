@@ -1,6 +1,6 @@
 #hero {
   height: 800px;
-  background-image: url("../assets/images/Pakistan Flag.jpg");
+  background-image: url("assets/images/Pakistan Flag.jpg");
   background-position: center;
   background-size: cover;
 }
