@@ -1,5 +1,5 @@
 body {
-  background-color: #7fc3a5;
+  background: linear-gradient(180deg, #006769, #40a578);
 }
 
 header {
@@ -12,8 +12,13 @@ li img {
   object-fit: cover;
 }
 
+main ul li h2 {
+  color: #7fc3a5;
+  font-weight: bold;
+}
+
 main ul {
-  margin: 0 auto;
+  margin: 20px auto 60px auto;
   padding-inline-start: 0;
   padding: 10px 10px;
   width: 1600px;
@@ -34,7 +39,7 @@ main li:nth-of-type(3) {
   grid-column: 1 / 3;
 }
 
-main li:nth-of-type(6) {
+main li:nth-of-type(7) {
   grid-column: 1 / 3;
 }
 
@@ -47,4 +52,16 @@ main li:nth-of-type(6) {
 
 .explore {
   text-align: end;
+}
+
+.explore a {
+  text-decoration: none;
+  color: #006769;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.explore a:hover {
+  color: aqua;
+  font-size: larger;
 }

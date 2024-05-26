@@ -7,7 +7,7 @@
 
 #hero-content {
   width: 500px;
-  padding: 20px;
+  padding: 50px;
   margin: 0 auto;
   background-color: #006769;
   opacity: 0.7;
@@ -19,7 +19,7 @@
 }
 
 #hero-content h1 {
-  color: #e6ff94;
+  color: #7fc3a5;
   font-family: "Poetsen", sans-serif;
   font-size: 40px;
   margin: 0;
@@ -62,6 +62,7 @@
 }
 
 #highlights h2 {
+  color: #7fc3a5;
   margin: auto;
   padding: 10px;
   text-align: center;
@@ -73,8 +74,8 @@
 }
 
 .destinations img {
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   border-radius: 10px;
   object-fit: cover;
   box-shadow: 2px 2px 8px #e6ff94;
@@ -88,4 +89,8 @@
 
 #highlights {
   background: linear-gradient(180deg, white, #40a578);
+}
+
+strong {
+  color: white;
 }

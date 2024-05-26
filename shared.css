@@ -24,7 +24,8 @@ header li {
 
 header a {
   text-decoration: none;
-  color: #e6ff94;
+  color: white;
+  font-size: 20px;
 }
 
 header a:hover {
@@ -34,7 +35,7 @@ header a:hover {
 .logo a {
   text-decoration: none;
   font-family: "Poetsen", sans-serif;
-  color: green;
+  color: #40a578;
   font-size: 40px;
   text-transform: uppercase;
   text-shadow: 2px 4px 8px;
@@ -42,7 +43,7 @@ header a:hover {
 
 .logo a:hover {
   text-decoration: none;
-  color: #006769;
+  color: white;
   font-size: 40px;
   text-transform: uppercase;
   text-shadow: 2px 4px 8px;
