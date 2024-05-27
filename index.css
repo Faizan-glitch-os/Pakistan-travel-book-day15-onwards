@@ -113,3 +113,20 @@ strong {
     font-size: 1.1rem;
   }
 }
+@media (max-width: 900px) {
+  #destinations {
+    display: block;
+  }
+
+  #hero-content h1 {
+    font-size: 2rem;
+  }
+
+  #highlights h2 {
+    font-size: 1.5rem;
+  }
+
+  strong {
+    font-size: 1.1rem;
+  }
+}
