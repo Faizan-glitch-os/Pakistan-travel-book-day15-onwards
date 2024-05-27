@@ -48,18 +48,6 @@
   color: white;
 }
 
-#destinations {
-  display: flex;
-  justify-content: space-evenly;
-  margin: auto;
-  text-align: center;
-  padding-inline-start: 0;
-}
-
-.destinations {
-  margin: 10px;
-}
-
 #highlights h2 {
   font-size: 2rem;
   color: #7fc3a5;
@@ -71,6 +59,19 @@
 
 #highlights {
   padding: 20px;
+}
+
+#highlights {
+  background: linear-gradient(180deg, white, #40a578);
+}
+
+#destinations {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  padding-inline-start: 0;
 }
 
 .destinations img {
@@ -85,13 +86,6 @@
 .destinations strong {
   display: block;
   text-transform: uppercase;
-}
-
-#highlights {
-  background: linear-gradient(180deg, white, #40a578);
-}
-
-strong {
   color: white;
   font-size: 1.2rem;
 }
