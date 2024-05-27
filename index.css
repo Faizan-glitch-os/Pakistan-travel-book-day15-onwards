@@ -58,7 +58,7 @@
 }
 
 #highlights {
-  padding: 20px;
+  padding: 24px;
 }
 
 #highlights {
@@ -90,7 +90,7 @@
   font-size: 1.2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
   #destinations {
     display: block;
   }
