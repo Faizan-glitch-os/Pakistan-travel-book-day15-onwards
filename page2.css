@@ -97,3 +97,33 @@ main li:nth-of-type(7) {
     margin-bottom: 0;
   }
 }
+@media (max-width: 900px) {
+  main ul {
+    margin: 20px auto 60px auto;
+    padding-inline-start: 0;
+    padding: 10px 10px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  main ul li {
+    display: block;
+  }
+
+  main ul li h2 {
+    margin: 0;
+  }
+  main li:nth-of-type(3) {
+    grid-column: 1 / 2;
+  }
+
+  main li:nth-of-type(7) {
+    grid-column: 1 / 2;
+  }
+
+  li img {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
