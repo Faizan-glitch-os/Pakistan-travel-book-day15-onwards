@@ -10,7 +10,7 @@ main ul {
   margin: 20px auto 60px auto;
   padding-inline-start: 0;
   padding: 10px 10px;
-  width: 70%;
+  width: 1600px;
   display: grid;
   grid-template-columns: 1.5fr 1.5fr;
   gap: 20px 20px;
