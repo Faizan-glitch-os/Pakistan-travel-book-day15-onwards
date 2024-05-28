@@ -1,12 +1,13 @@
 #hero {
   height: 800px;
+  width: 100%;
   background-image: url("assets/images/Pakistan Flag.jpg");
   background-position: center;
   background-size: cover;
 }
 
 #hero-content {
-  width: 480px;
+  width: 70%;
   padding: 50px;
   margin: 0 auto;
   background-color: #40a578;
@@ -15,7 +16,7 @@
   border-radius: 10px;
   box-shadow: 2px 4px 8px #40a578;
   position: relative;
-  top: 300px;
+  top: 30%;
 }
 
 #hero-content h1 {
@@ -60,6 +61,7 @@
 #highlights {
   background: linear-gradient(180deg, white, #40a578);
   padding: 24px;
+  margin: 0;
 }
 
 #destinations {
@@ -67,8 +69,7 @@
   justify-content: space-between;
   text-align: center;
   padding-inline-start: 0;
-  width: 90%;
-  margin: auto;
+  width: 100%;
 }
 
 .destinations img {
