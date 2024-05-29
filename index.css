@@ -41,10 +41,11 @@
   padding: 10px 30px;
   border-radius: 10px;
   box-shadow: 2px 4px 8px #40a578;
+
+  transition: background-color 0.7s ease-out;
 }
 
 #hero-content a:hover {
-  text-decoration: none;
   background-color: grey;
   color: white;
 }

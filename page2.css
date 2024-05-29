@@ -10,11 +10,13 @@ main ul {
   margin: 20px auto 60px auto;
   padding-inline-start: 0;
   padding: 10px 10px;
-  width: 100%;
+  width: 90%;
   height: 10%;
   display: grid;
   grid-template-columns: 1.5fr 1.5fr;
   gap: 20px 20px;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 li img {
